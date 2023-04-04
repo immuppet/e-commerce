@@ -277,6 +277,10 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
         margin-top: 30px;
 }
 
+.info a{
+    color: #1e1c2a;
+}
+
 .info .produto{
     font-size: 20px;
     font-weight: 800;
@@ -352,3 +356,16 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
     -webkit-box-orient: vertical;
 }
 
+.img-hover{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.image:hover .img-hover {
+    display: inline;
+}
